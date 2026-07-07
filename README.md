@@ -26,7 +26,7 @@ Python SDK for the [Verdikta Bounties API](https://bounties.verdikta.org/api/doc
 ### From GitHub
 
 ```bash
-pip install git+https://github.com/yourname/verdikta-sdk.git
+pip install git+https://github.com/s97472091-pixel/verdikta-sdk-v2.git
 ```
 
 Replace `yourname` after you publish the repository.
@@ -34,7 +34,7 @@ Replace `yourname` after you publish the repository.
 ### From local checkout
 
 ```bash
-git clone https://github.com/yourname/verdikta-sdk.git
+git clone https://github.com/s97472091-pixel/verdikta-sdk-v2.git
 cd verdikta-sdk
 python -m pip install .
 ```
@@ -432,14 +432,14 @@ git init
 git add .
 git commit -m "Initial Verdikta Python SDK"
 git branch -M main
-git remote add origin https://github.com/yourname/verdikta-sdk.git
+git remote add origin https://github.com/s97472091-pixel/verdikta-sdk-v2.git
 git push -u origin main
 ```
 
 4. Verify GitHub install:
 
 ```bash
-python -m pip install git+https://github.com/yourname/verdikta-sdk.git
+python -m pip install git+https://github.com/s97472091-pixel/verdikta-sdk-v2.git
 ```
 
 5. Optional PyPI publish:

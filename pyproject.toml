@@ -41,8 +41,8 @@ dev = [
 [project.urls]
 Homepage = "https://github.com/verdikta"
 Documentation = "https://bounties.verdikta.org/api/docs"
-Repository = "https://github.com/yourname/verdikta-sdk"
-Issues = "https://github.com/yourname/verdikta-sdk/issues"
+Repository = "https://github.com/s97472091-pixel/verdikta-sdk-v2"
+Issues = "https://github.com/s97472091-pixel/verdikta-sdk-v2/issues"
 
 [tool.setuptools.packages.find]
 include = ["verdikta_sdk*"]
