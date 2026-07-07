@@ -2,14 +2,14 @@
 
 ## Public repository
 
-Repository: `REPLACE_WITH_PUBLIC_GITHUB_URL`
+Repository: `https://github.com/s97472091-pixel/verdikta-sdk-v2`
 
 ## Installability
 
 Install from GitHub:
 
 ```bash
-pip install git+REPLACE_WITH_PUBLIC_GITHUB_URL.git
+pip install git+https://github.com/s97472091-pixel/verdikta-sdk-v2.git
 ```
 
 Optional PyPI install after publication:
