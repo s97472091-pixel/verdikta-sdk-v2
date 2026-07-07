@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verdikta-sdk"
+version = "0.1.0"
+description = "Python SDK for the Verdikta Bounties API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "Verdikta SDK Contributors" }
+]
+keywords = ["verdikta", "bounties", "base", "sdk", "api", "web3"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed"
+]
+dependencies = [
+  "httpx>=0.24,<1.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0",
+  "build>=1.0",
+  "twine>=4.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/verdikta"
+Documentation = "https://bounties.verdikta.org/api/docs"
+Repository = "https://github.com/yourname/verdikta-sdk"
+Issues = "https://github.com/yourname/verdikta-sdk/issues"
+
+[tool.setuptools.packages.find]
+include = ["verdikta_sdk*"]
+
+[tool.setuptools.package-data]
+verdikta_sdk = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
